@@ -1,0 +1,20 @@
+name:                todoHaskell
+version:             0.0.1
+synopsis:            My awesome todo-list app
+license:             MIT
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable todo
+  main-is:             Main.hs
+  hs-source-dirs: src
+  -- other-modules:       
+  build-depends:       base ==4.7.*
+                     , scotty ==0.8.2
+                     , aeson
+                     , text
+                     , persistent
+                     , persistent-template
+                     , persistent-mysql
+                     , persistent-sqlite

@@ -1,0 +1,5 @@
+dist/
+.cabal-sandbox/
+.idea/
+cabal.sandbox.config
+dev.app.sqlite3
